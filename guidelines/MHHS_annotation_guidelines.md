@@ -49,9 +49,11 @@ Annotators must assign:
 
 ---
 
-## 3.2 Optional MH-HS Dimensions
+## 3.2 Optional MH-HS Dimension
 
-A message may express one or more MH-HS dimensions:
+If a message is labeled as MH-HS = 1, annotators may optionally assign ONE dominant MH-HS dimension representing the primary coping-oriented characteristic expressed in the message.
+
+Only a single dimension should be selected per message.
 
 | Dimension | Description |
 |---|---|
@@ -59,10 +61,9 @@ A message may express one or more MH-HS dimensions:
 | Recovery | References to improvement, healing, recovery, or progress |
 | Resilience | Emotional endurance despite suffering |
 | Support | Constructive emotional or interpersonal support |
-| Future Orientation | Future-directed hope or possibility of improvement |
 | Reframing | Adaptive reinterpretation of adversity |
 
-Multiple dimensions may coexist.
+When multiple dimensions appear simultaneously, annotators should select the dimension that best represents the central communicative intention of the message.
 
 ---
 
@@ -130,9 +131,8 @@ This is NOT MH-HS.
 
 Label:
 - MH-HS = 1
-- Dimensions:
+- Dimension:
   - Recovery
-  - Future Orientation
 
 ---
 
@@ -142,9 +142,8 @@ Label:
 
 Label:
 - MH-HS = 1
-- Dimensions:
+- Dimension:
   - Resilience
-  - Agency
 
 ---
 
@@ -154,9 +153,8 @@ Label:
 
 Label:
 - MH-HS = 1
-- Dimensions:
+- Dimension:
   - Support
-  - Recovery
 
 ---
 
@@ -166,9 +164,8 @@ Label:
 
 Label:
 - MH-HS = 1
-- Dimensions:
+- Dimension:
   - Reframing
-  - Recovery
 
 ---
 
@@ -233,7 +230,7 @@ Annotators should:
 1. Read the target message.
 2. Review available contextual messages if needed.
 3. Assign the binary MH-HS label.
-4. Assign optional MH-HS dimensions.
+4. If MH-HS = 1, optionally assign ONE dominant dimension.
 5. Add notes for ambiguous cases.
 
 ---
